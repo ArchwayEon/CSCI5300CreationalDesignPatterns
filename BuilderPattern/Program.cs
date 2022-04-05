@@ -1,5 +1,7 @@
 ﻿using BuilderPattern.GOF.Builder;
 
+// Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1995). Design Patterns. Addison Wesley.
+
 Director director = new();
 
 IBuilder builder1 = new ConcreteBuilder1();
